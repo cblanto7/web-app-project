@@ -1,0 +1,28 @@
+extends layout
+block page
+  - var menu = 'admin'
+block content
+  div.admin  
+    if (classrooms.length === 0 )
+      p
+        | Nothing to display. Add a new 
+        a(href="/post") classroom
+        |.
+    else
+      
+      table.table.table-stripped
+        thead
+          tr
+            th(colspan="2") Actions
+            th Classroom Title
+        tbody
+          each classroom, index in classrooms
+            tr(data-id="#{classroom._id}", class=(!classroom.published)?'unpublished':'')
+              td.action
+                button.btn.btn-danger.btn-sm.remove(type="button")
+                  span.glyphicon.glyphicon-remove(title="Remove")
+              td.action
+                button.btn.btn-default.btn-sm.publish(type="button")
+                  span.glyphicon(class=(classroom.published)?"glyphicon-pause":"glyphicon-play", title=(classroom.published)?"Unpublish":"Publish")
+              td= classroom.title
+      script(type="text/javascript", src="js/admin.js")

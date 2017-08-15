@@ -1,0 +1,17 @@
+extends layout
+
+block page 
+  - var menu = 'professors'
+block content
+  
+  if (professors.length === 0)
+    | There's no published content yet. 
+    a(href="/login") Log in
+    |  to post and publish.
+  else 
+    #proflist.accordion
+      each professor, index in professors
+        h2= professor.name
+        p= professor.bio
+      script(type="text/javascript", src="js/accordion.jquery.js")
+      script(type="text/javascript", src="js/professor.js")

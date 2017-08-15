@@ -1,0 +1,29 @@
+[{
+  "_id": 1,
+  "name": "Steve Seagal",
+  "bio": "Steven Frederic Seagal is an American actor, film producer, screenwriter, film director, martial artist, Aikido instructor, musician, reserve deputy sheriff and entrepreneur."
+}, {
+  "_id": 2,
+  "name": "Steve Austin",
+  "bio": "Steve Austin, better known by his ring name \"Stone Cold\" Steve Austin, is an American actor, media personality, producer, and retired professional wrestler who is signed to a legends contract for WWE."
+}, {
+  "_id": 3,
+  "name": "Bruce Willis",
+  "bio": "Walter Bruce Willis, known professionally as Bruce Willis, is an American actor, producer, and singer. His career began on the Off-Broadway stage and then in television in the 1980s, most notably as David Addison in Moonlighting."
+}, {
+  "_id": 4,
+  "name": "Jean-Claude Van Damme",
+  "bio": "Jean-Claude Camille François Van Varenberg, professionally known as Jean-Claude Van Damme and abbreviated as JCVD, is a Belgian actor, martial artist, screenwriter, film producer, and director best known for his martial arts action films."
+}, {
+  "_id": 5,
+  "name": "Dwayne Johnson",
+  "bio": "Dwayne Douglas Johnson, also known by his ring name The Rock, is an American and Canadian actor, producer and semi-retired professional wrestler, signed with WWE. Johnson was a college football player"
+}, {
+  "_id": 6,
+  "name": "Jason Statham",
+  "bio": "Jason Statham is an English actor. He is known for his roles in the Guy Ritchie crime films Lock, Stock and Two Smoking Barrels, Snatch, and Revolver."
+}, {
+  "_id": 7,
+  "name": "Arnold Schwarzenegger",
+  "bio": "Arnold Alois Schwarzenegger is an Austrian-American actor, filmmaker, businessman, investor, author, philanthropist, activist, former professional bodybuilder and former politician."
+}]

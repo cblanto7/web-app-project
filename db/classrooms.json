@@ -1,0 +1,19 @@
+[{
+  "title": "Learn Node",
+  "slug": "learn-node",
+  "published": true,
+  "text": "Learning node takes time and patience, but can be very rewarding.",
+  "professor": 1  
+}, {
+  "title": "Express.js Experience",
+  "slug": "express-experience",
+  "text": "Work in progress",
+  "published": false,
+  "professor": 1
+},{
+  "title": "Web Application Architecture",
+  "slug": "web-app-arch",
+  "published": true,
+  "text": "Modern web application architectures differ dramatically from those that came before. Such architectures allow the rapid prototyping, development, and deployment of fully functional web applications. These architectures also allow deployment on various platforms including traditional computers, tablets, and smart phones. This course will introduce you to the various parts of a modem web application by your creating several.",
+  "professor": 2
+  }]

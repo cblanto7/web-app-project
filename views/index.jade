@@ -1,2 +1,18 @@
-h1 Hello
-p= msg
+extends layout
+
+block page 
+  script(type="text/javascript", src="js/accordion.jquery.js")
+  script(type="text/javascript", src="js/index.js")
+  - var menu = 'index'
+block content
+  if (classrooms.length === 0)
+    | There's no published content yet. 
+    a(href="/login") Log in
+    |  to post and publish.
+  else 
+    #classlist.accordion
+      each classroom, index in classrooms
+          h2
+            a(href="/classrooms/#{classroom.slug}")= classroom.title
+          p= classroom.text
+  

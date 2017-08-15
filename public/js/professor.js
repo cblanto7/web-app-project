@@ -1,0 +1,3 @@
+$(function() {
+  $("#proflist").accordion();
+});
